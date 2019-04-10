@@ -1,0 +1,28 @@
+npm install -g npm     -update npm
+
+npm init
+
+npm install gulp --save-dev
+
+create gulpfile.js
+
+npm install gulp-sass --save-dev
+
+npm install --save-dev gulp-watch-sass
+
+ npm install gulp-util
+-----------------------------------
+var gulp = require('gulp');
+var sass = require('gulp-sass');
+
+gulp.task('hello', function() {
+    console.log('Hello Zell');
+    // done();
+});
+
+gulp.task('sass', function(){
+    return gulp.src('app/scss/styles.scss')
+        .pipe(sass()) // Converts Sass to CSS with gulp-sass
+        .pipe(gulp.dest('app/css'))
+});
+-----------------------------------
