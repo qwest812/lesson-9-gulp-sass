@@ -6,11 +6,6 @@
   text-transform: uppercase;
 }
 
-.test{
-  opacity: 0.2;
-  text-decoration: underline;
-}
-
 .modal-background {
   @extend .small-uppercase;
 }
@@ -18,10 +13,8 @@
 .product-link {
   @extend .small-uppercase;
   background-color: red;
-  @extend  .test;
 }
 
 .image-pattern {
   @extend .small-uppercase;
-  @extend  .test;
 }

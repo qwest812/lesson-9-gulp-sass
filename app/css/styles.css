@@ -1,2 +1,14 @@
-p {
-  font: 12px/30px; }
+.small-uppercase, .modal-background, .product-link, .image-pattern {
+  color: lightslategrey;
+  font-size: 10px;
+  letter-spacing: 0.1em;
+  line-height: 12px;
+  text-transform: uppercase; }
+
+.test, .product-link, .image-pattern {
+  opacity: 0.2;
+  text-decoration: underline; }
+
+.product-link {
+  background-color: red; }
+
